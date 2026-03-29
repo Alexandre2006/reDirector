@@ -3,6 +3,14 @@ reConnect's reverse proxy for reMarkable tablets.
 
 reDirector runs on-device and forwards reMarkable traffic to a custom upstream server.
 
+## Device Compatibility
+| Device                    | Status | Notes                                        |
+|---------------------------|--------|----------------------------------------------|
+| reMarkable 1              | ⚠️     | Untested                                     |
+| reMarkable 2              | ⚠️     | Untested                                     |
+| reMarkable Paper Pro      | ✅      | Untested, works on reMarkable Paper Pro Move |
+| reMarkable Paper Pro Move | ✅      |                                              |
+
 ## Installation
 Pick the installer that matches your device architecture.
 
