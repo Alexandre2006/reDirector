@@ -1,0 +1,11 @@
+# Build directory & executables
+build/
+installer/assets/reDirector
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Editor/IDE
+.idea/
+.vscode/

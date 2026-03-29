@@ -1,0 +1,11 @@
+[Unit]
+Description=reDirector - reConnect's reverse proxy
+After=home.mount
+
+[Service]
+WorkingDirectory=/home/root/reDirector
+ExecStart=/home/root/reDirector/reDirector service
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
