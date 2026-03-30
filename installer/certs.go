@@ -44,6 +44,12 @@ func installCerts() error {
 	if err != nil {
 		return err
 	}
+
+	err = os.MkdirAll("/usr/local/share/ca-certificates", 0755)
+	if err != nil {
+		return err
+	}
+
 	if err := os.WriteFile("/usr/local/share/ca-certificates/reDirector.crt", src, 0644); err != nil {
 		return err
 	}
